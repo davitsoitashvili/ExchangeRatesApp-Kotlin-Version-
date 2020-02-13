@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import com.bumptech.glide.Glide
+import com.crashlytics.android.Crashlytics
 import kotlinx.android.synthetic.main.fragment_banks.*
 
 @Suppress("DEPRECATION")
@@ -47,6 +48,7 @@ class BanksFragment : Fragment() {
             Glide.with(this).load(it.image).into(bankImage)
         })
     }
+
 
     companion object {
         fun newInstance(id: Int): BanksFragment {

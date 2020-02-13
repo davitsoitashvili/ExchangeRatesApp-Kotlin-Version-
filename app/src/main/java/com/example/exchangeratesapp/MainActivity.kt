@@ -12,10 +12,13 @@ import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.crashlytics.android.Crashlytics
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_banks.*
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
             when (p0.itemId) {
                 R.id.vtbbankItem -> fragmentInstance(1)
@@ -27,7 +30,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             return true
         }
 
-
     val transaction: FragmentTransaction? = null
     var fragmentManager: FragmentManager? = null
     private var mDrawerToggle: ActionBarDrawerToggle? = null
@@ -38,7 +40,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         setActionBarDrawer()
         navigationReference()
-
     }
 
     private fun setActionBarDrawer() {

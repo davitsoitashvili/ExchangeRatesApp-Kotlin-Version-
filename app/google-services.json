@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1080471876400",
+    "firebase_url": "https://exchangeratescrashlytics-6db6d.firebaseio.com",
+    "project_id": "exchangeratescrashlytics-6db6d",
+    "storage_bucket": "exchangeratescrashlytics-6db6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080471876400:android:80d06bab0f027bcddfcef5",
+        "android_client_info": {
+          "package_name": "com.example.exchangeratesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080471876400-frv5bk7beqnpu0obaebnne478pfnqca1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exchangeratesapp",
+            "certificate_hash": "9d85090628c97ece34e0e4d7bb0e1a9505256216"
+          }
+        },
+        {
+          "client_id": "1080471876400-rkcebvrhdm4ajnvd4mi3u7lls491fgh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUfYXK2zXX2P3k0I4rts449jr5-BkAG5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1080471876400-rkcebvrhdm4ajnvd4mi3u7lls491fgh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
