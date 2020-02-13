@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/icon"
+            android:orderInCategory="1"
+            android:id="@+id/tbcbankItem"
+            android:title="@string/TBC_Bank" />
+
+        <item
+            android:icon="@drawable/icon"
+            android:orderInCategory="2"
+            android:id="@+id/vtbbankItem"
+            android:title="@string/VTB_Bank" />
+
+        <item
+            android:icon="@drawable/icon"
+            android:orderInCategory="3"
+            android:id="@+id/procreditbankItem"
+            android:title="@string/Procredit_Bank" />
+
+    </group>
+
+</menu>
